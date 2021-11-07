@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <DefaultLanguage Name="english" XmlValuesFile="./xml/english.xml"/>
+    <RegisteredLanguages>
+        <Language Name="english" Ccde="en_US" XmlValuesFile="./xml/english.xml"/>
+        <Language Name="kannada" Ccde="ka_IN" XmlValuesFile="./xml/kannada.xml"/>
+        <Language Name="hindi" Ccde="hi_IN" XmlValuesFile="./xml/hindi.xml"/>
+        <Language Name="tamil" Ccde="ta_IN" XmlValuesFile="./xml/tamil.xml"/>
+        <Language Name="odiya" Ccde="od_IN" XmlValuesFile="./xml/odiya.xml"/>
+    </RegisteredLanguages>
+    
+</resources>

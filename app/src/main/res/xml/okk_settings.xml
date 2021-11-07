@@ -1,0 +1,88 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/category_word_prediction">        
+
+       <CheckBoxPreference
+            android:defaultValue="true"
+            android:checked="true"
+            android:enabled="true"
+            android:key="wordprediction_checkbox"
+            android:summary= "@string/pref_word_prediction_desc"
+            android:title="@string/pref_word_prediction_enable" />
+
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/pref_wordprediction_no_of_words"
+            android:entryValues="@array/pref_wordprediction_word_count"
+            android:key="wordpred_count"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_wordprediction_count" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/category_general_settings" >
+
+        <ListPreference
+            android:defaultValue="3000"
+            android:entries="@array/pref_char_delay_seconds"
+            android:entryValues="@array/pref_char_delay_milliseconds"
+            android:key="character_delay"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_app_char_delay"/>
+
+        <EditTextPreference
+            android:title="Custom Delay [in ms]"
+            android:editable="true"
+            android:inputType="number"
+            android:defaultValue="@string/pref_app_char_delay"
+            android:key="character_delay"
+            android:positiveButtonText="Save"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/Font_Size_Settings">
+
+        <ListPreference
+            android:defaultValue="32"
+            android:entries="@array/pref_txtarea_font_size"
+            android:entryValues="@array/pref_txtarea_font_size_values"
+            android:key="app_fontsize_txtarea"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary="@string/pref_txtarea_font_size_summary"
+            android:title="@string/pref_txtarea_font_size_title" />
+
+        <ListPreference
+            android:defaultValue="64"
+            android:entries="@array/pref_btn_singlechar_font_size"
+            android:entryValues="@array/pref_btn_singlechar_font_size_values"
+            android:key="app_fontsize_btn_singlechar"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary="@string/pref_btn_singlechar_font_size_summary"
+            android:title="@string/pref_btn_singlechar_font_size_title" />
+
+        <ListPreference
+            android:defaultValue="32"
+            android:entries="@array/pref_btn_multichar_font_size"
+            android:entryValues="@array/pref_btn_multichar_font_size_values"
+            android:key="app_fontsize_btn_multichar"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary="@string/pref_btn_multichar_font_size_summary"
+            android:title="@string/pref_btn_multichar_font_size_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/category_language_settings" >
+        <ListPreference
+            android:defaultValue="english.xml"
+            android:entries="@array/pref_language_names"
+            android:entryValues="@array/pref_languages_xmlfiles_inapp"
+            android:key="app_language_file"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_available_languages" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

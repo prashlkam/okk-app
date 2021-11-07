@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item2"
+        android:title="Characters">
+        <menu>
+            <item
+                android:id="@+id/item3"
+                android:title="Alphabets" />
+            <item
+                android:id="@+id/item4"
+                android:title="Numbers" />
+            <item
+                android:id="@+id/item5"
+                android:title="Other Characters" />
+            <item
+                android:id="@+id/item6"
+                android:title="Alphabets &amp; Numbers" />
+            <item
+                android:id="@+id/item7"
+                android:title="Alphabets &amp; Other Characters" />
+            <item
+                android:id="@+id/item8"
+                android:title="Numbers &amp; Other Characters" />
+            <item
+                android:id="@+id/item9"
+                android:title="All Characters" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item10"
+        android:title="Output">
+        <menu>
+            <item
+                android:id="@+id/item11"
+                android:title="Dialer" />
+            <item
+                android:id="@+id/item12"
+                android:title="eMail" />
+            <item
+                android:id="@+id/item13"
+                android:title="Browser" />
+            <item
+                android:id="@+id/item14"
+                android:title="Save as Note" />
+            <item
+                android:id="@+id/item15"
+                android:title="Custom App" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item1"
+        android:checkable="true"
+        android:enabled="true"
+        android:orderInCategory="1"
+        android:title="Start / Stop"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/item16"
+        android:orderInCategory="1"
+        android:title="Delay"></item>
+    <item
+        android:id="@+id/item18"
+        android:orderInCategory="1"
+        android:title="Settings"></item>
+    <item
+        android:id="@+id/item17"
+        android:orderInCategory="1"
+        android:title="About"></item>
+
+
+</menu>

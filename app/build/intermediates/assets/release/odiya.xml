@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<Language Name = "Odiya" Code = "or_IN"
+	    FontFile = "res/Sarala.ttf" Dictionary = ""/>
+	<CharecterSet>
+		<Alphabets>
+		    <Include Start = "2817" End = "2929"></Include>
+		    <Exclude Start = "2820" End = "2820"></Exclude>
+		    <Exclude Start = "2829" End = "2830"></Exclude>
+		    <Exclude Start = "2833" End = "2834"></Exclude>
+		    <Exclude Start = "2852" End = "3252"></Exclude>
+		    <Exclude Start = "2857" End = "2857"></Exclude>
+		    <Exclude Start = "2865" End = "2865"></Exclude>
+		    <Exclude Start = "2868" End = "2868"></Exclude>
+		    <Exclude Start = "2874" End = "2875"></Exclude>
+		    <Exclude Start = "2885" End = "2886"></Exclude>
+		    <Exclude Start = "2889" End = "2890"></Exclude>
+		    <Exclude Start = "2894" End = "2901"></Exclude>
+		    <Exclude Start = "2904" End = "2907"></Exclude>
+		   <Exclude Start = "2910" End = "2910"></Exclude>	
+		   <Exclude Start = "2916" End = "2927"></Exclude>		   	    
+		</Alphabets>
+				
+		<Numbers>
+		    <Include Start = "2918" End = "2935"></Include>
+		    <Exclude Start = "2928" End = "2929"></Exclude>
+		</Numbers>
+		
+		<OtherChars>
+		    <Include start = "2928" end = "2929"></Include>
+		</OtherChars>
+	</CharecterSet>    
+</resources>

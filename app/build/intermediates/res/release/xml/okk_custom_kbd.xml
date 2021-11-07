@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:keyHeight="@dimen/key_height"
+    android:keyWidth="10%p"
+    android:verticalGap="0px">
+
+    <Row android:rowEdgeFlags="top">
+        <Key
+            android:codes="-1"
+            android:isModifier="true"
+            android:isSticky="true"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/sym_keyboard_shift"
+            android:keyWidth="15%p" />
+        <Key android:keyLabel="Forward | Backwards" />
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyIcon="@drawable/sym_keyboard_delete"
+            android:keyWidth="15%p" />
+        <Key
+            android:codes="-3"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/sym_keyboard_done"
+            android:keyWidth="20%p" />
+
+
+    </Row>
+    <Row>
+        <Key
+            android:keyHeight="150%p"
+            android:keyLabel="@+strings/btntext"
+            android:keyWidth="300%p" />
+    </Row>
+</Keyboard><!-- From: file:/D:/Users/prash/AndroidstudioProjects/okk/app/src/main/res/xml/okk_custom_kbd.xml -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <Language Name = "Tamil" Code = "ta_IN"
+	    FontFile = "res/Lohit-Tamil.ttf" Dictionary = ""/>
+	<CharecterSet>
+		<Alphabets>
+		    <Include Start = "2949" End = "3031"></Include>		    
+		    <Exclude Start = "2955" End = "2957"></Exclude>
+		    <Exclude Start = "2961" End = "2961"></Exclude>
+		    <Exclude Start = "2966" End = "2968"></Exclude>
+		    <Exclude Start = "2971" End = "2971"></Exclude>
+		    <Exclude Start = "2973" End = "2973"></Exclude>
+		    <Exclude Start = "2976" End = "2978"></Exclude>
+		    <Exclude Start = "2981" End = "2983"></Exclude>
+		    <Exclude Start = "2987" End = "2989"></Exclude>
+		    <Exclude Start = "3002" End = "3005"></Exclude>
+		    <Exclude Start = "3011" End = "3013"></Exclude>
+		    <Exclude Start = "3017" End = "3017"></Exclude>
+		    <Exclude Start = "3022" End = "3023"></Exclude>
+		    <Exclude Start = "3025" End = "3030"></Exclude>
+		</Alphabets>
+				
+		<Numbers>
+		    <Include Start = "3046" End = "3058"></Include>
+		</Numbers>
+		
+		<OtherChars>
+		    <Include start = "2946" end = "3066"></Include>
+		    <Exclude Start = "2948" End = "3058"></Exclude>
+		</OtherChars>
+	</CharecterSet>    
+</resources>

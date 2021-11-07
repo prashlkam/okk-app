@@ -1,0 +1,119 @@
+<resources>
+
+    <!-- Example General settings -->
+    <string name="category_word_prediction">Word Prediction settings</string>
+    <string name="pref_word_prediction_enable">Enable Word Prediction</string>
+    <string name="pref_word_prediction_desc">Gives Word Options based on the first 3 letters you type. This Saves your Time.</string>
+
+    <string name="pref_wordprediction_count">Predicted Words Count</string>
+    <string-array name="pref_wordprediction_no_of_words">
+        <item>10 words</item>
+        <item>8 words</item>
+        <item>5 words</item>
+        <item>3 words</item>
+    </string-array>
+    <string-array name="pref_wordprediction_word_count">
+        <item>10</item>
+        <item>8</item>
+        <item>5</item>
+        <item>3</item>
+    </string-array>
+
+    <string name = "category_general_settings">General settings</string>
+    <string name="pref_app_char_delay">Character Delay</string>
+    <string-array name="pref_char_delay_seconds">
+        <item>5000 ms [5 secs]</item>
+        <item>3000 ms [3 secs]</item>
+        <item>2000 ms [2 secs]</item>
+        <item>1000 ms [1 secs]</item>
+        <item>650 ms [0.65 secs]</item>
+    </string-array>
+    <string-array name="pref_char_delay_milliseconds">
+        <item>5000</item>
+        <item>3000</item>
+        <item>2000</item>
+        <item>1000</item>
+        <item>650</item>
+    </string-array>
+
+    <string name = "Font_Size_Settings">Font Size Settings</string>
+    <string name="pref_txtarea_font_size_title">Textarea Font Size</string>
+    <string name="pref_txtarea_font_size_summary">Font Size in the Textarea</string>
+    <string-array name="pref_txtarea_font_size">
+        <item>12 sp</item>
+        <item>16 sp</item>
+        <item>24 sp</item>
+        <item>28 sp</item>
+        <item>32 sp</item>
+        <item>48 sp</item>
+        <item>64 sp</item>
+        <item>80 sp</item>
+        <item>128 sp</item>
+    </string-array>
+    <string-array name="pref_txtarea_font_size_values">
+        <item>12</item>
+        <item>16</item>
+        <item>24</item>
+        <item>28</item>
+        <item>32</item>
+        <item>48</item>
+        <item>64</item>
+        <item>80</item>
+        <item>128</item>
+    </string-array>
+
+    <string name="pref_btn_singlechar_font_size_title">Button Single Char Font Size</string>
+    <string name="pref_btn_singlechar_font_size_summary">Font Size of Single Chars in the Big Button</string>
+    <string-array name="pref_btn_singlechar_font_size">
+        <item>64 sp</item>
+        <item>80 sp</item>
+        <item>96 sp</item>
+        <item>128 sp</item>
+        <item>160 sp</item>
+    </string-array>
+    <string-array name="pref_btn_singlechar_font_size_values">
+        <item>64</item>
+        <item>80</item>
+        <item>96</item>
+        <item>128</item>
+        <item>160</item>
+    </string-array>
+
+    <string name="pref_btn_multichar_font_size_title">Button Multi Char Font Size</string>
+    <string name="pref_btn_multichar_font_size_summary">Font Size of Words in the Big Button</string>
+    <string-array name="pref_btn_multichar_font_size">
+        <item>32 sp</item>
+        <item>48 sp</item>
+        <item>64 sp</item>
+        <item>80 sp</item>
+        <item>128 sp</item>
+    </string-array>
+    <string-array name="pref_btn_multichar_font_size_values">
+        <item>32</item>
+        <item>48</item>
+        <item>64</item>
+        <item>80</item>
+        <item>128</item>
+    </string-array>
+
+
+    <string name = "category_language_settings">Language settings</string>
+    <string name="pref_available_languages">Language used in App</string>
+    <string-array name="pref_language_names">
+        <item>english</item>
+        <item>hindi</item>
+        <item>kannada</item>
+        <item>marathi</item>
+        <item>odiya</item>
+        <item>tamil</item>
+    </string-array>
+    <string-array name="pref_languages_xmlfiles_inapp">
+        <item>english.xml</item>
+        <item>hindi.xml</item>
+        <item>kannada.xml</item>
+        <item>marathi.xml</item>
+        <item>odiya.xml</item>
+        <item>tamil.xml</item>
+    </string-array>
+
+</resources>

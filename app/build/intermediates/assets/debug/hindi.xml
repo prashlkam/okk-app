@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<Language Name = "Hindi" Code = "hi_IN"
+	    FontFile = "res/Lohit-Devanagari.ttf" Dictionary = ""/>
+	<CharecterSet>
+		<Alphabets>
+		    <Include Start = "2305" End = "2415"></Include>
+		    <Exclude Start = "2362" End = "2363"></Exclude>
+		    <Exclude Start = "2382" End = "2383"></Exclude>
+		    <Exclude Start = "2389" End = "2391"></Exclude>
+		    <Exclude Start = "2404" End = "2415"></Exclude>
+		    <Exclude Start = "2419" End = "2426"></Exclude>
+		    
+		</Alphabets>
+				
+		<Numbers>
+		    <Include Start = "2406" End = "3415"></Include>
+		</Numbers>
+		
+		<OtherChars>
+		    <Include start = "2404" end = "2405"></Include>
+		</OtherChars>
+	</CharecterSet>    
+</resources>

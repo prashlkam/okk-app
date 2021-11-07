@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<Language Name = "Kannada" Code = "kn_IN"
+	    FontFile = "res/Lohit-Kannada.ttf" Dictionary = ""/>
+	<CharecterSet>
+		<Alphabets>
+		    <Include Start = "3205" End = "3299"></Include>
+		    <Exclude Start = "3213" End = "3213"></Exclude>
+		    <Exclude Start = "3217" End = "3217"></Exclude>
+		    <Exclude Start = "3241" End = "3241"></Exclude>
+		    <Exclude Start = "3252" End = "3252"></Exclude>
+		    <Exclude Start = "3258" End = "3259"></Exclude>
+		    <Exclude Start = "3269" End = "3269"></Exclude>
+		    <Exclude Start = "3273" End = "3273"></Exclude>
+		    <Exclude Start = "3278" End = "3284"></Exclude>
+		    <Exclude Start = "3287" End = "3293"></Exclude>
+		    <Exclude Start = "3295" End = "3295"></Exclude>
+		    
+		</Alphabets>
+				
+		<Numbers>
+		    <Include Start = "3302" End = "3311"></Include>
+		</Numbers>
+		
+		<OtherChars>
+		    <Include start = "3313" end = "3314></Include>
+		</OtherChars>
+	</CharecterSet>    
+</resources>
